@@ -1,0 +1,65 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 10 (0xa)
+        Signature Algorithm: sha1WithRSAEncryption
+        Issuer: O=testsuite, OU=New Relic CA, CN=Node.js test CA
+        Validity
+            Not Before: Feb 28 01:22:49 2013 GMT
+            Not After : Feb 28 01:22:49 2014 GMT
+        Subject: CN=ssl.lvh.me, O=testsuite, OU=Node.js agent team
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+            RSA Public Key: (1024 bit)
+                Modulus (1024 bit):
+                    00:d1:01:02:8b:f3:a8:dc:b8:49:10:8f:cd:f3:02:
+                    76:7e:e2:22:e6:be:37:0a:ec:1c:27:18:24:d1:26:
+                    6e:d3:0a:14:6b:14:57:2e:02:1c:e6:d0:3b:9a:d1:
+                    cc:48:6b:5c:8f:92:db:2a:b7:33:c3:72:c4:c9:a6:
+                    54:f8:8f:5a:c0:2f:54:f5:53:93:c2:2e:d4:8f:4b:
+                    e0:ce:13:78:51:10:2c:af:c2:5e:57:36:7b:a9:dc:
+                    42:42:53:9c:55:7e:51:2a:9b:b1:b6:b7:b1:21:69:
+                    e7:cb:b4:bf:6b:9a:1a:74:87:15:80:d6:4f:04:e8:
+                    63:8f:fe:34:9a:39:41:8f:b7
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Subject Key Identifier: 
+                CC:98:57:A6:E6:B2:95:49:ED:67:CB:B0:62:BB:52:8A:D3:50:A7:D7
+            X509v3 Authority Key Identifier: 
+                keyid:CC:98:57:A6:E6:B2:95:49:ED:67:CB:B0:62:BB:52:8A:D3:50:A7:D7
+
+            X509v3 Key Usage: 
+                Digital Signature, Key Encipherment
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication
+            X509v3 CRL Distribution Points: 
+                URI:http://lvh.me/nodejs_.crl
+
+    Signature Algorithm: sha1WithRSAEncryption
+        28:cc:b1:38:90:f4:bf:01:45:34:aa:9c:a8:06:1c:ad:dc:bd:
+        ed:4d:77:78:fc:24:c2:31:a9:07:fb:6f:17:12:fb:de:15:c0:
+        d5:4b:4b:c0:9d:44:b1:04:d0:c9:26:4c:af:78:68:f0:4a:f3:
+        00:a8:c7:4c:ff:be:5b:66:dd:38:74:4a:1b:aa:36:90:a9:b5:
+        3c:33:75:a2:c2:be:55:83:bd:67:a5:db:76:20:5b:cd:f6:64:
+        16:d7:fb:a2:50:56:9d:bc:b5:ec:6d:77:05:bd:c1:8f:cd:f9:
+        b9:25:49:61:26:2a:68:1b:25:b5:c1:40:38:e2:5a:47:2a:41:
+        e9:48
+-----BEGIN CERTIFICATE-----
+MIICnjCCAgegAwIBAgIBCjANBgkqhkiG9w0BAQUFADBFMRIwEAYDVQQKEwl0ZXN0
+c3VpdGUxFTATBgNVBAsTDE5ldyBSZWxpYyBDQTEYMBYGA1UEAxMPTm9kZS5qcyB0
+ZXN0IENBMB4XDTEzMDIyODAxMjI0OVoXDTE0MDIyODAxMjI0OVowRjETMBEGA1UE
+AxMKc3NsLmx2aC5tZTESMBAGA1UEChMJdGVzdHN1aXRlMRswGQYDVQQLExJOb2Rl
+LmpzIGFnZW50IHRlYW0wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANEBAovz
+qNy4SRCPzfMCdn7iIua+NwrsHCcYJNEmbtMKFGsUVy4CHObQO5rRzEhrXI+S2yq3
+M8NyxMmmVPiPWsAvVPVTk8Iu1I9L4M4TeFEQLK/CXlc2e6ncQkJTnFV+USqbsba3
+sSFp58u0v2uaGnSHFYDWTwToY4/+NJo5QY+3AgMBAAGjgZwwgZkwCQYDVR0TBAIw
+ADAdBgNVHQ4EFgQUzJhXpuaylUntZ8uwYrtSitNQp9cwHwYDVR0jBBgwFoAUzJhX
+puaylUntZ8uwYrtSitNQp9cwCwYDVR0PBAQDAgWgMBMGA1UdJQQMMAoGCCsGAQUF
+BwMBMCoGA1UdHwQjMCEwH6AdoBuGGWh0dHA6Ly9sdmgubWUvbm9kZWpzXy5jcmww
+DQYJKoZIhvcNAQEFBQADgYEAKMyxOJD0vwFFNKqcqAYcrdy97U13ePwkwjGpB/tv
+FxL73hXA1UtLwJ1EsQTQySZMr3ho8ErzAKjHTP++W2bdOHRKG6o2kKm1PDN1osK+
+VYO9Z6XbdiBbzfZkFtf7olBWnby17G13Bb3Bj835uSVJYSYqaBsltcFAOOJaRypB
+6Ug=
+-----END CERTIFICATE-----
